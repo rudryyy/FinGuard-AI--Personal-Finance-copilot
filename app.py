@@ -1,10 +1,3 @@
-# app.py — Personal Finance Chatbot (Ollama + Gemini + Groq) with robust live quotes
-# -----------------------------------------------------------------------------------
-# - Switch LLM provider in sidebar: Ollama (local), Gemini (Google AI), or Groq (cloud)
-# - Live quotes: Twelve Data (near-real-time) or Yahoo/yfinance (free, delayed)
-# - Quotes include as_of + age_minutes, always injected into the LLM prompt
-# - Transactions: NL → structured via LLM, CSV import, monthly reports
-
 from __future__ import annotations
 import os, re, json, sqlite3, datetime as dt
 from dataclasses import dataclass, asdict
@@ -738,3 +731,4 @@ with tabs[2]:
                             st.markdown(summarize_budget_with_llm(llm, cats, goals))
     except Exception as e:
         st.error(f"Reports error: {e}")
+
