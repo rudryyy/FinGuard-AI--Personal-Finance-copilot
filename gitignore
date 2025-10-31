@@ -1,0 +1,44 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter / Streamlit
+.ipynb_checkpoints/
+.streamlit/secrets.toml
+
+# OS / IDE
+.DS_Store
+*.code-workspace
+.vscode/
+.idea/
+
+# Data / artifacts
+data/
+models/
+*.db
+finance.db
+
+# Logs
+logs/
+*.log
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# LFS tracked (if enabled)
+*.pt
+*.pkl
+*.h5
+*.onnx
+*.csv

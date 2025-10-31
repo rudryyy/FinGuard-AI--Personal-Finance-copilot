@@ -1,0 +1,8 @@
+streamlit>=1.36
+pandas>=2.0
+requests>=2.31
+yfinance>=0.2.40
+matplotlib>=3.8
+google-generativeai>=0.8.0
+groq>=0.9.0
+ollama>=0.3.0
